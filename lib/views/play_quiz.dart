@@ -77,7 +77,6 @@ QuestionModel getQuestionModelFromDatasnaphot(DocumentSnapshot<Map<String, dynam
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         iconTheme: IconThemeData(color:Colors.black54),
-        brightness: Brightness.light,
       ),
       body: questionsSnapshot == null ? Container(
         child: Center(

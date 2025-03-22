@@ -49,7 +49,6 @@ uploadQuestionData() async{
         title: appBar(context),
         backgroundColor: Colors.transparent,
         elevation: 0.0,
-        brightness: Brightness.light,
       ),
       body: _isLoading ? Container(
         child: Center(

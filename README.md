@@ -1,16 +1,19 @@
-# firstapp
+ # Quiz App
 
-A new Flutter project.
+Aplikacja mobilna (Flutter) umożliwiająca, tworzenie i rozwiązywanie quizów. Aplikacja korzystała z Firebase jako bazy danych. 
 
-## Getting Started
+## Funkcjonalności
 
-This project is a starting point for a Flutter application.
+- **Tworzenie quizu**: Użytkownik przy tworzeniu quizu podaje: ImgUrl(który miał być w tle okładki quizu), nazwe quizu i jego opis.
 
-A few resources to get you started if this is your first Flutter project:
+- **Dodawanie pytań**: Użytkownik podaje pytanie oraz cztery możliwe odpowiedzi i zazacza odpowiedź prawidłową
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Tworzenie kont użytkowników**: Wykorzystając Authentication z Firebase aplikacja daje możliowość tworzenia kont użtkowników gdzie zapisuje jego quizy.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Rozwiązywanie quizu**: Użytkownik wybiera quiz, a aplikacja pobiera pytania z bazy danych i losowo je wyświetla. Użytkownik interaktywnie wybiera odpowiedzi na pytania, które są oceniane jako poprawne lub błędne. Po zakończeniu quizu, użytkownik jest przenoszony na ekran wyników, gdzie widzi liczbę poprawnych, błędnych oraz nieodpowiedzianych pytań.
+
+## Technologie
+
+- Flutter
+- Dart
+- Firebase

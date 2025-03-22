@@ -58,7 +58,6 @@ class _CreateQuizState extends State<CreateQuiz> {
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         iconTheme: IconThemeData(color: Colors.black87),
-        brightness: Brightness.light,
       ),
       body: _isLoading ? Container(
         child: Center(

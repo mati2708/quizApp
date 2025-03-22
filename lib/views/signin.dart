@@ -51,7 +51,6 @@ class _SignInState extends State<SignIn>{
         title: appBar(context),
         backgroundColor: Colors.transparent,
         elevation: 0.0,
-        brightness: Brightness.light,
       ),
       body: _isLoading ? Scaffold(
       body: Container(

@@ -46,8 +46,7 @@ signUp() async {
       appBar: AppBar(
         title: appBar(context),
         backgroundColor: Colors.transparent,
-        elevation: 0.0,
-        brightness: Brightness.light,
+        elevation: 0.0
       ),
       body: Form(
         key: _formKey,
