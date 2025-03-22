@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1023277521538",
+    "project_id": "quizflutter-b860a",
+    "storage_bucket": "quizflutter-b860a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023277521538:android:0aca37cca26f7a006a329b",
+        "android_client_info": {
+          "package_name": "com.example.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023277521538-vfjmhshm6sus95i9o0rh6rnpvil4it1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmoWywzhbxnr_mpibIv0muq8jNdAqX6Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023277521538-vfjmhshm6sus95i9o0rh6rnpvil4it1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023277521538:android:1c27aa20cfdeb93a6a329b",
+        "android_client_info": {
+          "package_name": "com.exmaple.quizmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023277521538-vfjmhshm6sus95i9o0rh6rnpvil4it1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmoWywzhbxnr_mpibIv0muq8jNdAqX6Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023277521538-vfjmhshm6sus95i9o0rh6rnpvil4it1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
